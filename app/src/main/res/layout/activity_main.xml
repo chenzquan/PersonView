@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:PersonAtr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.example.test.PersonView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        PersonAtr:name="@string/person_name"
+        PersonAtr:weight="fat"
+        PersonAtr:adult="false"
+        PersonAtr:textSize="@dimen/default_text_size"/>
+    <!--<TextView-->
+        <!--android:text="chenzquan"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+</RelativeLayout>
